@@ -1,1 +1,8 @@
-kubectl auth can-i get pods --as=system:serviceaccount:webapp:webapp-svc -n webapp && kubectl auth can-i list pods --as=system:serviceaccount:webapp:webapp-svc -n webapp
+replicas=$(kubectl get statefulset api -n sales -o=jsonpath={.spec.replicas})
+result=500
+if [ $replicas -eq 4 ]
+then
+result=0
+fi
+echo $result
+exit $result
