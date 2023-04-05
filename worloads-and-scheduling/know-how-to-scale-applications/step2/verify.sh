@@ -1,4 +1,4 @@
-replicas=$(kubectl get statefulset api -n sales -o=jsonpath={.spec.replicas})
+replicas=$(kubectl get statefulset mariadb-sts -n db -o=jsonpath={.spec.replicas})
 result=500
 if [ $replicas -eq 1 ]
 then
