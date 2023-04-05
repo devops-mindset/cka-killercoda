@@ -1,2 +1,2 @@
- kubectl get sa svc-api  -n webapp 
+ kubectl get sa webapp-svc  -n webapp 
  
