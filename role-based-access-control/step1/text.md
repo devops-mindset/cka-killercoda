@@ -1,7 +1,7 @@
 
 <br>
 
-Create a new ServiceAccount `api` in the namespace `webapp`.
+Create a new ServiceAccount `webapp-svc` in the namespace `webapp`.
 
 
 
