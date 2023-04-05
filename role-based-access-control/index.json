@@ -1,0 +1,27 @@
+{
+  "title": "Role-based Access Control",
+  "description": "Multiple steps can have foreground and background scripts",
+  "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Step1",
+        "text": "step1/text.md",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh",
+        "verify": "step1/verify.sh"
+      },
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
