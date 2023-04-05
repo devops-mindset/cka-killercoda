@@ -1,6 +1,11 @@
 {
   "title": "Know how to scale applications",
   "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
     "steps": [
       {
         "title": "Scale up Application",
