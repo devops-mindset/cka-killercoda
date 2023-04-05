@@ -1,5 +1,5 @@
 
 <br>
 
-Create the ServiceAccount `api` in the namespace `webapp`:
+Create the ServiceAccount `api` in the namespace `webapp`
 
