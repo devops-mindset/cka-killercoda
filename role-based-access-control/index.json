@@ -1,10 +1,6 @@
 {
   "title": "Role-based Access Control",
   "details": {
-    "intro": {
-      "title": "Intro",
-      "text": "intro/text.md"
-    },
     "steps": [
       {
         "title": "Step1",
