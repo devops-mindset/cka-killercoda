@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "path": "cluster-architecture-installation-configuration", "title":"Cluster Architecture, Installation & Configuration" },
+    { "path": "workloads-and-scheduling", "title": "Workloads & Scheduling" }
+  ]
+}
