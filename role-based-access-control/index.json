@@ -14,7 +14,7 @@
         "foreground": "step1/foreground.sh",
         "background": "step1/background.sh",
         "verify": "step1/verify.sh"
-      },
+      }
     ],
     "finish": {
       "title": "Finish",
