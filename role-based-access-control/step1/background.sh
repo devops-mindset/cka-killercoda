@@ -1,2 +1,1 @@
-sleep 3
-echo done > /tmp/background1
+kubectl create namespace webapp
