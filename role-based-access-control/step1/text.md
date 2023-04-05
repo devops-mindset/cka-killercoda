@@ -1,8 +1,5 @@
 
 <br>
 
-Please create file `/tmp/step1`:
+Create the ServiceAccount `api` in the namespace `webapp`:
 
-```
-touch /tmp/step1
-```{{exec}}
