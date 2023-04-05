@@ -1,6 +1,6 @@
 {
   "title": "Role-based Access Control",
-  "description": "Multiple steps can have foreground and background scripts",
+  "description": "Role-based access control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users within your organization",
   "details": {
     "intro": {
       "title": "Intro",
