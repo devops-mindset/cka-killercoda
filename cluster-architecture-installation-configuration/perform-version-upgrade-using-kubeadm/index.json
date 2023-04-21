@@ -1,6 +1,9 @@
 {
   "title": "Perform a version upgrade on a Kubernetes cluster using Kubeadm",
   "details": {
+    "intro": {
+      "text": "intro/intro.md"
+    },
     "steps": [
       {
         "title": "Upgrade Kubernetes Cluster",
