@@ -1,0 +1,20 @@
+{
+  "title": "Perform a version upgrade on a Kubernetes cluster using Kubeadm",
+  "details": {
+    "steps": [
+      {
+        "title": "Upgrade Kubernetes Cluster",
+        "text": "step1/text.md",
+        "background": "step1/background.sh",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
