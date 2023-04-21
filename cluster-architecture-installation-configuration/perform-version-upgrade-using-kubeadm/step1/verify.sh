@@ -1,9 +1,12 @@
-newversion=$(kubelet --version)
-oldversion=$(cat /tmp/version.txt)
-result=0
-if [ $newversion -eq $oldversion ]
-then
-result=500
+#!/bin/bash
+  
+OLDVERSION="$(kubelet --version)"
+NEWVERSION="$(cat /tmp/version.txt)"
+RESULT=0
+if [ "$OLDVERSION" = "$NEWVERSION" ]; then
+    RESULT=500
+else
+    RESULT=0
 fi
-echo $result
-exit $result
+echo $RESULT
+exit $RESULT
